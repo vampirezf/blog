@@ -175,7 +175,7 @@ public class UserTemplateProcessor {
         try {
             JSONObject usiteObject = new JSONObject(usite);
             List<String> usiteList = new ArrayList<>();
-            Collections.addAll(usiteList, "usiteUserId", "usiteWeiBo", "usiteQQMusic", "usiteStackOverflow", "usiteDribbble", "usiteGitHub", "usiteMedium", "usiteTwitter", "usiteQQ", "usiteLinkedIn", "usiteSteam", "oId", "usiteInstagram", "usiteCodePen", "usiteWYMusic", "usiteWeChat", "usiteZhiHu", "usiteBehance", "usiteTelegram", "usiteFacebook");
+            Collections.addAll(usiteList, "usiteUserId", "usiteWeiBo", "usiteQQMusic", "usiteStackOverflow", "usiteDribbble", "usiteGitHub", "usiteMedium", "usiteTwitter", "usiteQQ", "usiteLinkedIn", "usiteSteam", "oId", "usiteInstagram", "usiteCodePen", "usiteWYMusic", "usiteWeChat", "usiteZhiHu", "usiteBehance", "usiteTelegram", "usiteFacebook","usiteCSDN");
             for (String i : usiteList) {
                 if (!usiteObject.has(i)) {
                     LOGGER.log(Level.ERROR, "Updates usite option failed: Invalid JSON Object.");

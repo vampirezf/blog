@@ -117,6 +117,10 @@
                 <td><b>Facebook</b></td>
                 <td>https://www.facebook.com/ <input id="usiteFacebook" type="text" style="width:200px"></td>
             </tr>
+            <tr>
+                <td><b>CSDN</b></td>
+                <td>https://blog.csdn.net/ <input id="usiteCSDN" type="text" style="width:200px"></td>
+            </tr>
         </table>
 
         <div class="fn__clear">
