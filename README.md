@@ -1,140 +1,86 @@
-# Welcome to GitHub
-
-Welcome to GitHub—where millions of developers work together on software. Ready to get started? Let’s learn how this all works by building and publishing your first GitHub Pages website!
-
-## Repositories
-
-Right now, we’re in your first GitHub **repository**. A repository is like a folder or storage space for your project. Your project's repository contains all its files such as code, documentation, images, and more. It also tracks every change that you—or your collaborators—make to each file, so you can always go back to previous versions of your project if you make any mistakes.
-
-This repository contains three important files: The HTML code for your first website on GitHub, the CSS stylesheet that decorates your website with colors and fonts, and the **README** file. It also contains an image folder, with one image file.
-
-## Describe your project
-
-You are currently viewing your project's **README** file. **_README_** files are like cover pages or elevator pitches for your project. They are written in plain text or [Markdown language](https://guides.github.com/features/mastering-markdown/), and usually include a paragraph describing the project, directions on how to use it, who authored it, and more.
-
-[Learn more about READMEs](https://help.github.com/en/articles/about-readmes)
-
-## Your first website
-
-**GitHub Pages** is a free and easy way to create a website using the code that lives in your GitHub repositories. You can use GitHub Pages to build a portfolio of your work, create a personal website, or share a fun project that you coded with the world. GitHub Pages is automatically enabled in this repository, but when you create new repositories in the future, the steps to launch a GitHub Pages website will be slightly different.
-
-[Learn more about GitHub Pages](https://pages.github.com/)
-
-## Rename this repository to publish your site
-
-We've already set-up a GitHub Pages website for you, based on your personal username. This repository is called `hello-world`, but you'll rename it to: `username.github.io`, to match your website's URL address. If the first part of the repository doesn’t exactly match your username, it won’t work, so make sure to get it right.
-
-Let's get started! To update this repository’s name, click the `Settings` tab on this page. This will take you to your repository’s settings page. 
-
-![repo-settings-image](https://user-images.githubusercontent.com/18093541/63130482-99e6ad80-bf88-11e9-99a1-d3cf1660b47e.png)
-
-Under the **Repository Name** heading, type: `username.github.io`, where username is your username on GitHub. Then click **Rename**—and that’s it. When you’re done, click your repository name or browser’s back button to return to this page.
-
-<img width="1039" alt="rename_screenshot" src="https://user-images.githubusercontent.com/18093541/63129466-956cc580-bf85-11e9-92d8-b028dd483fa5.png">
-
-Once you click **Rename**, your website will automatically be published at: https://your-username.github.io/. The HTML file—called `index.html`—is rendered as the home page and you'll be making changes to this file in the next step.
-
-Congratulations! You just launched your first GitHub Pages website. It's now live to share with the entire world
-
-## Making your first edit
-
-When you make any change to any file in your project, you’re making a **commit**. If you fix a typo, update a filename, or edit your code, you can add it to GitHub as a commit. Your commits represent your project’s entire history—and they’re all saved in your project’s repository.
-
-With each commit, you have the opportunity to write a **commit message**, a short, meaningful comment describing the change you’re making to a file. So you always know exactly what changed, no matter when you return to a commit.
-
-## Practice: Customize your first GitHub website by writing HTML code
-
-Want to edit the site you just published? Let’s practice commits by introducing yourself in your `index.html` file. Don’t worry about getting it right the first time—you can always build on your introduction later.
-
-Let’s start with this template:
-
-```
-<p>Hello World! I’m [username]. This is my website!</p>
-```
-
-To add your introduction, copy our template and click the edit pencil icon at the top right hand corner of the `index.html` file.
-
-<img width="997" alt="edit-this-file" src="https://user-images.githubusercontent.com/18093541/63131820-0794d880-bf8d-11e9-8b3d-c096355e9389.png">
-
-
-Delete this placeholder line:
-
-```
-<p>Welcome to your first GitHub Pages website!</p>
-```
-
-Then, paste the template to line 15 and fill in the blanks.
-
-<img width="1032" alt="edit-githuboctocat-index" src="https://user-images.githubusercontent.com/18093541/63132339-c3a2d300-bf8e-11e9-8222-59c2702f6c42.png">
-
-
-When you’re done, scroll down to the `Commit changes` section near the bottom of the edit page. Add a short message explaining your change, like "Add my introduction", then click `Commit changes`.
-
-
-<img width="1030" alt="add-my-username" src="https://user-images.githubusercontent.com/18093541/63131801-efbd5480-bf8c-11e9-9806-89273f027d16.png">
-
-Once you click `Commit changes`, your changes will automatically be published on your GitHub Pages website. Refresh the page to see your new changes live in action.
-
-:tada: You just made your first commit! :tada:
-
-## Work with GitHub on your computer using GitHub Desktop
-
-**GitHub Desktop** is a free app from GitHub for Windows and Mac that allows you to easily work with your GitHub repositories from your computer. You just saw how you can commit to a repository from GitHub.com, but most developers do the majority of their work from their computer (locally) before pushing it up to GitHub. So let’s try that out!
-
-[Download GitHub Desktop](https://desktop.github.com/)
-
-## Practice: Use GitHub Desktop and an editor to make a change from your computer
-
-Start by downloading GitHub Desktop if you haven’t already done so, and install it on your computer. Go through the GitHub Desktop onboarding steps, and when you get to the “Let’s get started” screen, go ahead and choose the repository you were just working with on GitHub.com, and click “Clone.”
-
-### Using an editor to make changes
-
-Let’s make sure you have a text editor on your computer - this is what you'll use to actually make changes to your files. If you already know you have an editor, then skip to the next step. Otherwise, download and install either [Visual Studio Code](https://code.visualstudio.com/) or [Atom](https://atom.io/) and restart GitHub Desktop before proceeding to the next step.
-
-Let’s make a change to your GitHub Pages site, just like you did on GitHub.com, except this time we’re going to do it all from your computer. From GitHub Desktop, click the “Open in…” button in the middle of the screen to “open the repository in your external editor” that you just downloaded. 
-
-![Open-in-editor](https://user-images.githubusercontent.com/721500/63188833-82fb9600-c030-11e9-8777-a67c1713d59f.png)
-
-In the left sidebar, click the `index.html` file to open it, and go ahead and add another line. Maybe, “Building websites is fun! You should try it too!” or whatever you want to add. 
-
-![Make-changes](https://user-images.githubusercontent.com/721500/63188832-82fb9600-c030-11e9-9f7b-7d15385a16f0.png)
-
-Now switch back to GitHub Desktop, and you should see the change you made.
-
-![View-changes](https://user-images.githubusercontent.com/721500/63188835-82fb9600-c030-11e9-8980-43a8231ca23a.png)
-
-### Commit your changes
-
-Now you can commit your changes by typing a message in the `Summary` box at the bottom left, and then click the blue `Commit` button below that.
-
-![Commit-changes](https://user-images.githubusercontent.com/721500/63188831-8262ff80-c030-11e9-809a-f87d8b544935.png)
-
-### Push your changes to GitHub.com
-
-One of the great things about working on things on your computer is that you get to control when other people see them. Now let’s push your commit to GitHub.com as well so it’s saved there and you can publish it to your site. Click the “Push origin” button to push your commit to GitHub.com. 
-
-![Push-to-GitHub](https://user-images.githubusercontent.com/721500/63188834-82fb9600-c030-11e9-9d8e-6c6ed6d48504.png)
-
-Now click the “View on GitHub” button to get back to your repository’s page on GitHub.com.
-
-![View-on-GitHub](https://user-images.githubusercontent.com/721500/63188836-82fb9600-c030-11e9-9bc5-cf304398500d.png)
-
-### Deploy and see your changes live on your GitHub Pages website!
-
-Once you commit your changes, they are automatically published on your GitHub Pages website. Refresh your browser to see it live!
-
-### Celebrate!
-
-Hooray! Now you have your repository linked between your computer and GitHub.com. In the future, you can use GitHub Desktop to push any changes you decide to make from your computer.
-
-## Extra Credit: Keep on building!
-
-Change the placeholder Octocat gif on your GitHub Pages website by [creating your own personal Octocat emoji](https://myoctocat.com/build-your-octocat/) or [choose a different Octocat gif from our logo library here](https://octodex.github.com/). Add that image to line 12 of your `index.html` file, in place of the `<img src=` link.
-
-Want to add even more code and fun styles to your GitHub Pages website? [Follow these instructions](https://github.com/github/personal-website) to build a fully-fledged static website.
-
-![octocat](./images/create-octocat.png)
-
-## Everything you need to know about GitHub
-
-Getting started is the hardest part. If there’s anything you’d like to know as you get started with GitHub, try searching [GitHub Help](https://help.github.com). Our documentation has tutorials on everything from changing your repository settings to configuring GitHub from your command line.
+<p align = "center">
+<img alt="Bolo" src="/pic/bolo-circle.png" height="200px" width="200px">
+<br><br>
+基于 Java 的菠萝博客系统，简单易部署，精致主题，贴心服务，专为程序员设计。
+<br><br>
+<img src="http://img.shields.io/badge/license-AGPLv3-orange.svg?style=flat-square">
+<img src="https://img.shields.io/github/last-commit/adlered/bolo-solo.svg?style=flat-square">
+<img src="https://img.shields.io/github/issues-pr-closed/adlered/bolo-solo.svg?style=flat-square">
+<img src="https://img.shields.io/github/downloads/adlered/bolo-solo/total?style=flat-square">
+<img src="https://img.shields.io/github/v/release/adlered/bolo-solo?style=flat-square">
+<img src="https://img.shields.io/github/commit-activity/y/adlered/bolo-solo?style=flat-square">
+<br>
+<img src="https://img.shields.io/github/languages/code-size/adlered/bolo-solo.svg?style=flat-square">
+<img src="https://img.shields.io/github/repo-size/adlered/bolo-solo?style=flat-square">
+<img src="https://img.shields.io/github/languages/count/adlered/bolo-solo?style=flat-square">
+<img src="https://img.shields.io/github/languages/top/adlered/bolo-solo?style=flat-square">
+<img src="https://img.shields.io/github/issues/adlered/bolo-solo?style=flat-square">
+<img src="https://img.shields.io/github/issues-closed-raw/adlered/bolo-solo?style=flat-square">
+<br>
+<img src="https://img.shields.io/github/forks/adlered/bolo-solo?style=flat-square">
+<img src="https://img.shields.io/github/stars/adlered/bolo-solo?style=flat-square">
+<img src="https://img.shields.io/github/watchers/adlered/bolo-solo?style=flat-square">
+<br>
+<a href="https://www.jetbrains.com/?from=bolo-solo"><img src="/pic/jetbrains.png" width="146px" height="158px"></a>
+</p>
+
+****
+
+## ❤ 令人放心的全面免费服务
+
+### ✅ 贴心的技术支持
+
+* 有问必答的用户交流群，轻松气氛，社恐无惧
+* 舒心提问，耐心讲解，博客维护团队为你解答
+* 免费远程服务，解决疑难杂症
+* 菠萝博客及全部增值服务永久免费，永久更新
+
+### 🌱 我是小白，装不好怎么办？
+
+不用担心安装问题，我们提供完善的文档，提供所有部署方式的安装、升级方式，通过简单的几步就可启动。  
+如果你在跟随教程安装的过程中出现任何问题，菠萝博客用户群会有作者以及维护者随时待命，**免费解答、远程帮助**，QQ 用户群请点击最下方的链接。
+
+## 🌸 欣赏
+
+[上手尝试所有皮肤，点我](https://doc.stackoverflow.wiki/web/#/7?page_id=88)
+
+<p align="center">✨ 全新主题，支持黑暗模式</p>
+
+<img src="/preview/1.png"/>
+<img src="/preview/2.png"/>
+<img src="/preview/3.png"/>
+
+<p align="center">📈 后台管理，酷炫统计表，完整黑暗模式支持</p>
+
+<img src="/preview/4.png"/>
+
+<p align="center">🔍 搜索界面，一搜即达</p>
+
+<img src="/preview/5.png"/>
+
+<p align="center">📸 登录界面，定期自动更新主题美图</p>
+
+<img src="/preview/6.png"/>
+
+## 为什么选择 Bolo
+
+1. 完整的教程文档，完善的交流答疑
+2. 精美皮肤常更新
+3. 支持将文章自动备份至 GitHub 仓库 [示例](https://github.com/adlered/bolo-blog)
+4. 超酷的数据统计表
+5. 本地登录、评论，支持备案模式（隐藏登录、评论及搜索入口）
+6. 支持 Tomcat、Docker 快速部署
+7. 邮件提醒功能，不怕错过博客中的新评论，回复他人评论也会发邮件提醒他人
+8. 强大的 Vditor 编辑器，支持 `所见即所得`、`即时渲染`、`分屏预览` 三种模式，额外支持通过 [Lute_HTTP](https://github.com/88250/lute-http) 渲染
+9. 支持自定义图床（阿里云、又拍云、七牛云、腾讯云）
+10. 轻型防火墙功能，阻止恶意访问，保证博客正常运行
+10. 强大的 Markdown 编辑器（使用 Vditor）支持大纲、数学公式、脑图、图表、流程图、甘特图、时序图、五线谱、多媒体、语音阅读、标题锚点、代码高亮及复制、graphviz 渲染
+11. 支持黑暗模式，随系统设置自动切换，保护视力
+12. 看板娘+，在线更新海量看板娘资源
+13. 如果你是 [Solo](https://github.com/88250/solo) 用户，还可将 Solo 的数据一键迁移到 Bolo；如果你对 Bolo 不满意，还可以一键迁回至 Solo
+14. Server 酱推送功能，在微信上接收你的博客动态
+15. 自动生成“我在 GitHub 上的开源项目”文章功能，让博客的访客更好地了解你的 GitHub 履历
+
+## 博客安装使用教程文档
+
+### [👉 QQ用户群 | 安装教程 | 从Solo迁移 | Bolo介绍 | 常见问题 👈](https://doc.stackoverflow.wiki/web/#/7?page_id=46)
