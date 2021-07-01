@@ -24,11 +24,11 @@
         &copy; ${year}
         <a href="${servePath}">${blogTitle}</a>
     ${footerContent}
-        <span class="footer__heart">❤️</span>
-        Powered by <a href="https://github.com/adlered/bolo-solo" target="_blank">Bolo</a>
-        Theme ✨ Bolo-Butterfly
-        <sup>[<a href="https://github.com/adlered/bolo-solo" target="_blank">ref</a>]</sup>
-        Modified by <a href="https://github.com/lonuslan" target="_blank">Lonus Lan</a> <br>
+    <#--<span class="footer__heart">❤️</span>
+    Powered by <a href="https://github.com/adlered/bolo-solo" target="_blank">Bolo</a>
+    Theme ✨ Bolo-Butterfly
+    <sup>[<a href="https://github.com/adlered/bolo-solo" target="_blank">ref</a>]</sup>
+    Modified by <a href="https://github.com/lonuslan" target="_blank">Lonus Lan</a> <br>-->
     </div>
 </footer>
 <#--<svg class="side__top" id="sideTop" version="1.1" xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 32 32">-->
