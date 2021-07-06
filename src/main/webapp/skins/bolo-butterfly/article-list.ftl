@@ -164,6 +164,12 @@
                             <i class="fab fa-telegram"></i>
                         </a>
                     </#if>
+                    <#if usite.usiteCSDN !=''>
+                        <a class="social-icon" target="_blank" title="CSDN"
+                           href="https://blog.csdn.net/${usite.usiteCSDN}">
+                            <i class="fab fa-cuttlefish"></i>
+                        </a>
+                    </#if>
                 </div>
                 </#if>
             </div>

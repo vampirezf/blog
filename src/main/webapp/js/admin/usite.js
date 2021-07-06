@@ -63,7 +63,8 @@ admin.usite = {
               '    "usiteZhiHu": "",\n' +
               '    "usiteBehance": "",\n' +
               '    "usiteTelegram": "",\n' +
-              '    "usiteFacebook": ""\n' +
+              '    "usiteFacebook": "",\n' +
+              '    "usiteCSDN": ""\n' +
               '}\n' +
               '\n');
         } else {
