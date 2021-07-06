@@ -45,12 +45,12 @@
                         <p class="d-lg-none d-xl-none">返回主页</p>
                     </a>
                 </li>
-                <li class="nav-item">
+                <#--<li class="nav-item">
                     <a class="nav-link" rel="tooltip" title="开源驱动：菠萝博客" data-placement="bottom" href="https://github.com/adlered/bolo-solo" target="_blank">
                         <i class="fa fa-github"></i>
                         <p class="d-lg-none d-xl-none">Bolo on GitHub</p>
                     </a>
-                </li>
+                </li>-->
             </ul>
         </div>
     </div>
