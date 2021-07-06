@@ -1,8 +1,0 @@
-# Project exclude paths
-/node_modules/
-/target/
-.classpath
-.project
-.settings
-.idea/
-*.iml
