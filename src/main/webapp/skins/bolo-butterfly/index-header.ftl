@@ -21,7 +21,7 @@
 <div class="full_page header" id="page-header">
     <div id="site-info">
         <h1 id="site_title">${blogTitle}
-            <span class="styles_wave__1DWv- styles_headline__2NyAR">👋🏼</span>
+            <span class="styles_wave__1DWv- styles_headline__2NyAR">🥤</span>
         </h1>
         <div id="site_subtitle">
             <span id="subtitle"></span>

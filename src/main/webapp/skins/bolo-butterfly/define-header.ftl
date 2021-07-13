@@ -32,7 +32,7 @@
     <header class="header--${type}">
         <nav id="nav" style="opacity: 1; animation: 1s ease 0s 1 normal none running headerNoOpacity;" class="">
             <span class="pull-left" id="blog_name">
-                <a class="blog_title" id="site-name" href="${servePath}">${blogTitle} 👋🏼</a>
+                <a class="blog_title" id="site-name" href="${servePath}">${blogTitle} 🥤</a>
             </span>
             <span class="pull-right menus">
                 <div class="menus_items">
