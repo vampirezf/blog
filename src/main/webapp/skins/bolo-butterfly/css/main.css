@@ -2545,6 +2545,7 @@ blockquote footer cite:before {
   margin: 0;
   font-size: 1.4rem;
   color: #639;
+  font-family: "Segoe Script", "Ink Free", "Segoe Print";
 }
 #page-header #site_subtitle {
   font-size: 0.8rem;
