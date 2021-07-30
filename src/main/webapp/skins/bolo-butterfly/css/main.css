@@ -56,7 +56,16 @@ body {
   font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Helvetica Neue', Lato, Roboto, 'PingFang SC', 'Microsoft YaHei', sans-serif;
   line-height: 2;
   -webkit-tap-highlight-color: rgba(0,0,0,0);
-  cursor: url("https://img.lonuslan.com/lonuslan/20200502/InKHIJ0NtpfO.ico"), auto;
+  /*cursor: url("https://cdn.jsdelivr.net/gh/sviptzk/HexoStaticFile@latest/Hexo/img/default.cur"), auto;*/
+}
+body {
+  cursor: url("https://cdn.jsdelivr.net/gh/vampirezf/CDN/image/point/default.cur"),
+  default;
+}
+a,
+img {
+  cursor: url("https://cdn.jsdelivr.net/gh/vampirezf/CDN/image/point/pointer.cur"),
+  default;
 }
 *::-webkit-scrollbar {
   width: 8px;
@@ -297,7 +306,7 @@ img:not([src]) {
   height: auto !important;
 }
 #content-inner,
-#footer {
+.footer {
   -webkit-animation: main 1s;
   -moz-animation: main 1s;
   -o-animation: main 1s;
@@ -6171,3 +6180,4 @@ blockquote.pullquote.right {
 video {
   width: 100%;
 }
+
