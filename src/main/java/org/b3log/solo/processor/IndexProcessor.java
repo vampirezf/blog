@@ -17,6 +17,7 @@
  */
 package org.b3log.solo.processor;
 
+import org.apache.commons.codec.binary.Hex;
 import org.apache.commons.lang.StringUtils;
 import org.b3log.latke.Keys;
 import org.b3log.latke.Latkes;
@@ -32,7 +33,6 @@ import org.b3log.latke.servlet.RequestContext;
 import org.b3log.latke.servlet.annotation.RequestProcessing;
 import org.b3log.latke.servlet.annotation.RequestProcessor;
 import org.b3log.latke.servlet.renderer.AbstractFreeMarkerRenderer;
-import org.b3log.latke.util.Locales;
 import org.b3log.latke.util.Paginator;
 import org.b3log.latke.util.URLs;
 import org.b3log.solo.SoloServletListener;
@@ -41,6 +41,7 @@ import org.b3log.solo.log4j.RamAppender;
 import org.b3log.solo.model.Common;
 import org.b3log.solo.model.Option;
 import org.b3log.solo.service.*;
+import org.b3log.solo.util.RSAUtils;
 import org.b3log.solo.util.Skins;
 import org.b3log.solo.util.Solos;
 import org.json.JSONObject;
@@ -48,6 +49,7 @@ import org.json.JSONObject;
 import javax.servlet.http.Cookie;
 import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
+import java.security.interfaces.RSAPublicKey;
 import java.util.Calendar;
 import java.util.Map;
 
@@ -179,6 +181,11 @@ public class IndexProcessor {
         final AbstractFreeMarkerRenderer renderer = new SkinRenderer(context, "common-template/start.ftl");
         final Map<String, Object> dataModel = renderer.getDataModel();
         final Map<String, String> langs = langPropsService.getAll(Latkes.getLocale());
+        // RSA modulus及exponent生成
+        RSAPublicKey publicKey = RSAUtils.getDefaultPublicKey();
+        dataModel.put("modulus",new String(Hex.encodeHex(publicKey.getModulus().toByteArray())));
+        dataModel.put("exponent",new String(Hex.encodeHex(publicKey.getPublicExponent().toByteArray())));
+
         dataModel.putAll(langs);
         // 登录失败提示
         final BeanManager beanManager = BeanManager.getInstance();

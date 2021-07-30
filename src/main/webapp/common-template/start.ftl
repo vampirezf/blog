@@ -83,6 +83,13 @@
             </div>
         </div>
     </div>
+    <script src="/js/security.js"></script>
+    <script>
+        var security = {
+            exponent: "${exponent}",
+            modulus: "${modulus}"
+        }
+    </script>
     <script>
         status = '${data}';
         if (status === '2') {
@@ -127,6 +134,13 @@
                             document.getElementById('loginForm').submit();
                         }
                     } else {
+                        if (security.exponent && security.modulus) {
+                            key = RSAUtils.getKeyPair(security.exponent, '', security.modulus);
+                        }
+                        if (key) {
+                            var encryptPassword = $("#password").val();
+                            $("#password").val(RSAUtils.encryptedString(key, encryptPassword));
+                        }
                         document.getElementById('loginBtn').innerHTML = '<i class="fa fa-spinner fa-pulse"></i> 登录中';
                         document.getElementById('loginForm').submit();
                     }

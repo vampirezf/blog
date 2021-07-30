@@ -39,6 +39,7 @@ import org.b3log.solo.model.Option;
 import org.b3log.solo.model.UserExt;
 import org.b3log.solo.repository.OptionRepository;
 import org.b3log.solo.service.*;
+import org.b3log.solo.util.RSAUtils;
 import org.b3log.solo.util.Solos;
 import org.json.JSONObject;
 
@@ -124,6 +125,8 @@ public class OAuthProcessor {
         HttpServletRequest request = context.getRequest();
         String username = request.getParameter("username");
         String srcPassword = request.getParameter("password");
+        // 使用私钥解密由JS加密（使用此类提供的公钥加密）的字符串。
+        srcPassword = RSAUtils.decryptStringByJs(srcPassword);
         String password = MD5Utils.stringToMD5Twice(srcPassword);
         try {
             if (UpgradeService.boloFastMigration) {
